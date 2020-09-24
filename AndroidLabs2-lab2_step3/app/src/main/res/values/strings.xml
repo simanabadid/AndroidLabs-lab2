@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Android Labs2</string>
+    <string name="hello_message">Hello World</string>
+
+    <string name="ButtonText">I\'m a button</string>
+    <string name="mygui">Look at My GUI</string>
+    <string name="btn_txt">Click Here</string>
+    <string name="checkbox">Check this out!</string>
+    <string name="switch1">Switch On/Off</string>
+    <string name="type"> Type Here</string>
+    <string name="switch_on">Switch is On</string>
+    <string name="switch_off">Switch is Off</string>
+    <string name="message"> Undo</string>
+    <string name="check1"> checkbox is Checked</string>
+    <string name="check2"> checkbox is UnChecked</string>
+   <string name="toast_message">Here is more information</string>
+
+</resources>

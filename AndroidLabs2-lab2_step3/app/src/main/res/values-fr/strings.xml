@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Labs2</string>
+    <string name="hello_message">Bonjour</string>
+
+    <string name="ButtonText">I\'m a button</string>
+    <string name="btn_txt">Bouton</string>
+    <string name="checkbox">Check Mark</string>
+    <string name="mygui">Mon GUI</string>
+    <string name="switch1">Switch Ouvert/Fermer</string>
+    <string name="type">Ecriver ici</string>
+    <string name="switch_on">Switch et allume</string>
+    <string name="switch_off">Switch et eteint</string>
+    <string name="message"> annuler</string>
+    <string name="check1"> La case est cochee</string>
+    <string name="check2"> La case nest pas cochee</string>
+    <string name="toast_message">Voici plus information</string>
+</resources>
