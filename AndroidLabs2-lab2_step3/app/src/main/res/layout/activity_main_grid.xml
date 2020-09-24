@@ -8,7 +8,7 @@
     android:rowCount="4"
     android:orientation="horizontal"
     >
-llll
+
 
     <TextView
         android:id="@+id/textView"
