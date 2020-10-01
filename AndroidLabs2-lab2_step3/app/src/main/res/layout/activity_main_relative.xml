@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="@string/mygui"
+        android:layout_alignParentTop="true"
+        android:gravity="fill"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_txt"
+        android:layout_below="@id/text"/>
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:text="@string/checkbox"
+        android:layout_alignParentRight="true"
+        android:gravity="fill"/>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/flag"
+        android:layout_below="@id/button"/>
+    <Switch
+        android:id="@+id/switch_on_off"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="@string/switch1"
+        android:layout_below="@id/button"
+        android:gravity="fill"
+        android:layout_alignParentRight="true"/>
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:hint="@string/type"
+        android:layout_gravity="fill"/>
+
+</RelativeLayout>
